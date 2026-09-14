@@ -13,15 +13,15 @@ review, test, and ship.
 - **Diagnostics:** useful logs, observable failures, and enough context to find the cause.
 - **Delivery:** focused reviews, meaningful tests, and verified releases.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/mind-map-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/mind-map-light.svg">
+  <img src="assets/mind-map-light.svg" alt="Andrey Krasheninnikov's engineering map: mobile libraries connect execution, package boundaries, errors, and diagnostics. Learning branches connect Flutter, Go and SQL, DevSecOps, and C/C++ and mathematics to these engineering interests. Repository links and descriptions follow below." width="640" height="1272">
+</picture>
+
 ### Open source
 
 Small tools for the parts of an application that need to stay predictable.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/package-map-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/widgets/package-map-light.svg">
-  <img src="assets/widgets/package-map-light.svg" alt="Package map: launch_mode for execution, package_context for boundaries, domain_error for outcomes, and observatory with talker_bloc_effects for diagnostics. Grouped by purpose, not dependencies." width="640">
-</picture>
 
 | Project | What it does |
 | :--- | :--- |
@@ -31,30 +31,15 @@ Small tools for the parts of an application that need to stay predictable.
 | [launch_mode](https://github.com/pchkauu/launch_mode) | Foreground and background execution context for Flutter entry points and handlers. |
 | [talker_bloc_effects](https://github.com/pchkauu/talker_bloc_effects) | One Talker observer for BLoC events, states, errors, and effects. |
 
-### Version radar
+### Learning in public
 
-The highest stable tag in each library. `Release` means that tag also has a
-published, non-prerelease GitHub Release; otherwise it is marked `Tag`.
+I study these subjects to build more reliable software and understand how it runs.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/version-radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/widgets/version-radar-light.svg">
-  <img src="assets/widgets/version-radar-light.svg" alt="Stable versions of the five Dart and Flutter libraries, with separate Tag and Release labels. Open the project links above to inspect their tags and releases." width="640">
-</picture>
-
-### Code footprint
-
-Language distribution by bytes of code in my public repositories, excluding
-forks, archives, and this profile repository. The five largest languages appear
-individually; the rest are grouped as `Other`. This describes the public code,
-not time spent or proficiency.
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/widgets/code-footprint-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/widgets/code-footprint-light.svg">
-  <img src="assets/widgets/code-footprint-light.svg" alt="Language distribution across original, non-archived public repositories, measured in bytes of code. The card includes repository count and snapshot time." width="640">
-</picture>
+- **[flutter-study](https://github.com/pchkauu/flutter-study):** To build reliable mobile apps and make informed decisions about state, rendering, and platform integration.
+- **[go-study](https://github.com/pchkauu/go-study):** To design backend services with clear contracts, predictable concurrency, and useful diagnostics.
+- **[sql-study](https://github.com/pchkauu/sql-study):** To model data, understand query performance, and reason about consistency in relational databases.
+- **[cpp-study](https://github.com/pchkauu/cpp-study):** To understand memory, compilation, and how programs interact with operating systems and hardware.
+- **[devsecops-study](https://github.com/pchkauu/devsecops-study):** To connect development with infrastructure, security, and repeatable delivery.
+- **[math-study](https://github.com/pchkauu/math-study):** To strengthen the reasoning behind algorithms, complexity, and engineering trade-offs.
 
 [Explore all public repositories](https://github.com/pchkauu?tab=repositories)
-
-<sub>Each card shows its snapshot time. <a href="docs/widgets.md">Widget maintenance</a>.</sub>

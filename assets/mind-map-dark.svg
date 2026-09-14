@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1272" viewBox="0 0 640 1272" role="img" aria-labelledby="title description">
+  <title id="title">Andrey Krasheninnikov: engineering and learning</title>
+  <desc id="description">A mind map of mobile and backend engineering, delivery, and foundations. Mobile libraries cover execution, package boundaries, errors, and diagnostics. Learning branches link Flutter, Go, SQL, DevSecOps, C/C++, and mathematics to these interests. Connections express areas of interest, not software dependencies or proficiency levels.</desc>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #edf3fb; }
+    .name { font-size: 36px; font-weight: 650; }
+    .branch { font-size: 32px; font-weight: 650; }
+    .context { font-size: 24px; fill: #a7b6c8; }
+    .purpose { font-size: 24px; font-weight: 550; fill: #8bbcff; }
+    .learning { font-size: 24px; font-weight: 550; fill: #71d9c1; }
+    .repo { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 26px; }
+    .trunk { fill: none; stroke: #52657e; stroke-width: 2; }
+    .study { fill: none; stroke: #71d9c1; stroke-width: 2; stroke-dasharray: 4 6; }
+  </style>
+
+  <rect width="640" height="1272" rx="16" fill="#10151c"/>
+  <path class="trunk" d="M56 144V1118 M56 190H80 M56 712H80 M56 932H80 M56 1118H80"/>
+  <rect x="32" y="32" width="576" height="112" rx="12" fill="#1a2431"/>
+  <text class="name" x="56" y="80">Andrey Krasheninnikov</text>
+  <text class="context" x="56" y="118">Mobile &amp; Backend Engineer</text>
+
+  <g aria-label="Mobile engineering">
+    <text class="branch" x="96" y="202">Mobile</text>
+    <text class="context" x="96" y="238">Flutter / Dart</text>
+    <path class="trunk" d="M108 260V564 M108 276H124 M108 353H124 M108 430H124 M108 507H124"/>
+
+    <text class="purpose" x="140" y="280">Execution</text>
+    <text class="repo" x="140" y="312">launch_mode</text>
+
+    <text class="purpose" x="140" y="357">Package boundaries</text>
+    <text class="repo" x="140" y="389">package_context</text>
+
+    <text class="purpose" x="140" y="434">Typed errors</text>
+    <text class="repo" x="140" y="466">domain_error</text>
+
+    <text class="purpose" x="140" y="511">Diagnostics</text>
+    <text class="repo" x="140" y="543">observatory</text>
+    <text class="repo" x="140" y="579">talker_bloc_effects</text>
+
+    <path class="study" d="M108 584V618H124"/>
+    <text class="learning" x="140" y="622">Learning</text>
+    <text class="repo" x="140" y="654">flutter-study</text>
+  </g>
+
+  <g aria-label="Backend engineering">
+    <text class="branch" x="96" y="724">Backend / Go / SQL</text>
+    <text class="context" x="96" y="760">Contracts, concurrency</text>
+    <path class="study" d="M108 782V804H124"/>
+    <text class="learning" x="140" y="808">Learning</text>
+    <text class="repo" x="140" y="840">go-study</text>
+    <text class="repo" x="140" y="876">sql-study</text>
+  </g>
+
+  <g aria-label="Engineering delivery">
+    <text class="branch" x="96" y="944">Delivery / DevSecOps</text>
+    <text class="context" x="96" y="980">Testing, diagnostics, releases</text>
+    <path class="study" d="M108 1002V1024H124"/>
+    <text class="learning" x="140" y="1028">Learning</text>
+    <text class="repo" x="140" y="1060">devsecops-study</text>
+  </g>
+
+  <g aria-label="Foundations: learning C, C++, and mathematics">
+    <text class="branch" x="96" y="1130">Foundations</text>
+    <path class="study" d="M108 1152V1168H124"/>
+    <text class="learning" x="140" y="1172">Learning</text>
+    <text class="repo" x="140" y="1204">cpp-study</text>
+    <text class="repo" x="140" y="1240">math-study</text>
+  </g>
+</svg>
