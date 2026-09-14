@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/cover-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/cover-light.png">
-  <img src="assets/cover-light.png" alt="Andrey Krasheninnikov — Mobile & Backend Engineer" width="1774" height="887">
+  <img src="assets/cover-light.png" alt="Andrey Krasheninnikov — Mobile & Backend Engineer" width="1774">
 </picture>
 
 I build mobile apps and backend services with clear contracts, predictable async behavior, and useful diagnostics.
